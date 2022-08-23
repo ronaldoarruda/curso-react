@@ -37,7 +37,6 @@ const AnotherList = () => {
           <button onClick={()=> {handleNewCars(newCar.id)}}>Excluir</button>
         </>
         ))}
-      
     </div>
   )
 }
