@@ -7,6 +7,7 @@ import Hooks from './components/hookes'
 import List from './components/List';
 import AnotherList from './components/AnotherList';
 import RenderCond from './components/RenderCond';
+import Fragment from './components/Fragment';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <AnotherList />
       <hr />
       <RenderCond x={8} y={10}/>
+      <hr />
+      <Fragment />
     </div>
   );
 }
