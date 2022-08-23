@@ -3,6 +3,8 @@ import './App.css';
 import AnotherComponent from './components/AnotherComponent';
 import FirstComponent from './components/FirstComponent';
 import Images from './components/images';
+import Hooks from './components/hookes'
+import List from './components/List';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <FirstComponent />
       <AnotherComponent />
       <Images />
+      <Hooks />
+      <List />
     </div>
   );
 }
